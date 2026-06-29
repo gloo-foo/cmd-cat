@@ -3,8 +3,9 @@ package cat_test
 import (
 	"fmt"
 
-	command "github.com/gloo-foo/cmd-cat"
 	"github.com/gloo-foo/testable"
+
+	command "github.com/gloo-foo/cmd-cat"
 )
 
 func ExampleCat_numberLines() {

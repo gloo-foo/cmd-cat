@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	command "github.com/gloo-foo/cmd-cat"
 	"github.com/gloo-foo/testable"
+
+	command "github.com/gloo-foo/cmd-cat"
 )
 
 func TestCat_Passthrough(t *testing.T) {

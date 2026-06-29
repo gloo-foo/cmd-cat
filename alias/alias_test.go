@@ -4,8 +4,9 @@ import (
 	"slices"
 	"testing"
 
-	cat "github.com/gloo-foo/cmd-cat/alias"
 	"github.com/gloo-foo/testable"
+
+	cat "github.com/gloo-foo/cmd-cat/alias"
 )
 
 // The alias package re-exports the constructor and flag constants under
